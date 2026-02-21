@@ -14,7 +14,7 @@ import java.time.temporal.ChronoUnit;
 @Getter
 @Entity
 @ToString
-@Table(name = "users", schema = "univer")
+@Table(name = "users")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
